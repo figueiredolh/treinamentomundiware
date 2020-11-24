@@ -3,33 +3,56 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
 }
 
 .divtop{
-    height: 30px;
+    /* width: 100%; */
+    background-color: #F3F3F3;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    color: #666666;
 }
 
-.divtop p{
-    margin-left: 30px;
+.divtop ul li{
+    padding: 0;
+}
+
+/* .divnavtop{
+    height: 30px;
+}
+ */
+.divnavtop p{
     color: white;
     font-size: 13px;
 }
 
-.divtop ul{
+.divnavtop ul{
     margin-top: 4px;
 }
 
-.divtop ul li a{
+.divnavtop ul li a{
     font-size: 13px;
     color: white;
     display: inline-block;
     padding: 8px 15px;
 }
 
-.divtop ul li:nth-child(2)::before, .divtop ul li:nth-child(3)::before{
+.divnavtop ul li:nth-child(2)::before, .divnavtop ul li:nth-child(3)::before{
     content: '';
     border-left: 1px solid white;
 }
@@ -42,4 +65,13 @@ ul{
     text-transform: uppercase;
     color: white;
     font-size: 12px;
+}
+
+.manchete{
+    background-color: #F3F3F3;
+    border-top: 1px solid #68B9C9;
+}
+
+.margemconteudo{
+    margin-top: 7em;
 }
