@@ -1,0 +1,45 @@
+header{
+    background-color:#216087;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.divtop{
+    height: 30px;
+}
+
+.divtop p{
+    margin-left: 30px;
+    color: white;
+    font-size: 13px;
+}
+
+.divtop ul{
+    margin-top: 4px;
+}
+
+.divtop ul li a{
+    font-size: 13px;
+    color: white;
+    display: inline-block;
+    padding: 8px 15px;
+}
+
+.divtop ul li:nth-child(2)::before, .divtop ul li:nth-child(3)::before{
+    content: '';
+    border-left: 1px solid white;
+}
+
+.borderlink{
+    border-left: 1px solid white;
+}
+
+.color-link{
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
