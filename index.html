@@ -14,40 +14,42 @@
 </head>
 
 <body>
+    <!-- Barra Superior -->
     <div class="container-fluid divtop">
         <nav class="container">
-            <ul class="row navbar py-0">
-                <li class="nav-item">Es noticia</li>
-                <li class="nav-item">Navidad</li>
-                <li class="nav-item">Coronavirus</li>
-                <li class="nav-item">Black Friday</li>
-                <li class="nav-item">Mainat</li>
-                <li class="nav-item">Donald Trump</li>
-                <li class="nav-item">Calles confinadas</li>
-                <li class="nav-item">Elena Cañizares</li>
-                <li class="nav-item">Calles confinadas</li>
-                <li class="nav-item">Andalucía</li>
-                <li class="nav-item">Cataluña</li>
-                <li class="nav-item">Galícia</li>
-                <li class="nav-item">Montserrat Carulla</li>
-                <li class="nav-item">Festivos 2011</li>
+            <ul class="row navbar p-0">
+                <li class="nav-item titulosecao">Es noticia</li>
+                <li class="nav-item"><a href="#">Navidad</a></li>
+                <li class="nav-item"><a href="#">Coronavirus</a></li>
+                <li class="nav-item"><a href="#">Black Friday</a></li>
+                <li class="nav-item"><a href="#">Mainat</a></li>
+                <li class="nav-item"><a href="#">Donald Trump</a></li>
+                <li class="nav-item"><a href="#">Calles confinadas</a></li>
+                <li class="nav-item"><a href="#">Elena Cañizares</a></li>
+                <li class="nav-item"><a href="#">Calles confinadas</a></li>
+                <li class="nav-item"><a href="#">Andalucía</a></li>
+                <li class="nav-item"><a href="#">Cataluña</a></li>
+                <li class="nav-item"><a href="#">Galícia</a></li>
+                <li class="nav-item"><a href="#">Montserrat Carulla</a></li>
+                <li class="nav-item"><a href="#">Festivos 2011</a></li>
             </ul>
         </nav>
     </div>
 
+    <!-- Header -->
     <header>
         <nav class="container pl-1 pr-0">
-            <div class="row divnavtop">
-                <p class="col-8 ml-0 mt-1">Lunes, 23 de noviembre de 2020</p>
-                <ul class="row col-4">
+            <div class="row s divnavtop">
+                <p class="col-4 pl-3 py-1 m-0">Lunes, 23 de noviembre de 2020</p>
+                <ul class="row col-3 p-1 offset-5 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link">Suscríbete</a>
+                        <a class="nav-link" href="#">Suscríbete</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Iniciar sesión</a>
+                        <a class="nav-link" href="#">Iniciar sesión</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">
+                        <a class="nav-link" href="#">
                             <i class="fas fa-search mt-1"></i>
                         </a>
                     </li>
@@ -62,7 +64,7 @@
                 </div>
             </div>
 
-            <ul class="row navbar pb-0">
+            <ul class="row navbar pb-0 barranav">
                 <li class="nav-item">
                     <a class="nav-link col color-link" href="#">España</a>
                 </li>
@@ -101,48 +103,121 @@
         </nav>
     </header>
 
+    <!-- Article 1 -->
+
     <div class="container margemconteudo p-2">
         <div class="row">
             <div class="col">
                 <article class="manchete p-3">
-                    <h1>Navidad. Cenas de Nochebuena y Nochevieja de seis personas máximo y toque de queda a la 1.00
-                    </h1>
-                    <p>JUANMA LAMET | Madrid</p>
+                    <a href="#">
+                        <h1><span class="titulo">Navidad.</span> Cenas de Nochebuena y Nochevieja de seis personas
+                            máximo y
+                            toque de queda a la 1.00
+                        </h1>
+                    </a>
+                    <p class="subtitulo">JUANMA LAMET | Madrid</p>
                     <div class="row">
-                        <section class="col-6">Madrid. Ve "mejorable" la estrategia para Navidad</section>
-                        <section class="col-6">Alemania. Los 'Länder' proponen un límite de diez</section>
+                        <section class="col-6 secao">
+                            <a href="#">
+                                <p><span class="titulosecao">Madrid.</span> Ve "mejorable" la estrategia para Navidad
+                                </p>
+                            </a>
+                        </section>
+                        <section class="col-6 secao">
+                            <a href="#">
+                                <p><span class="titulosecao">Alemania.</span> Los 'Länder' proponen un límite de diez
+                                </p>
+                            </a>
+                        </section>
                     </div>
                 </article>
             </div>
         </div>
     </div>
 
+    <!-- Article 2 - 3 cols-->
+
     <div class="container p-2">
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 pr-1">
                 <article class="manchete p-3">
-                    <h2>P&R. Qué puedo hacer en Navidad y qué no: sí a correr la San Silvestre, no a trasnochar en
-                        Nochevieja</h2>
-                    <p>VICENTE COLL | Madrid</p>
+                    <a href="#">
+                        <h2><span class="titulo">P&R.</span> Qué puedo hacer en Navidad y qué no: sí a correr la San
+                            Silvestre, no a trasnochar en
+                            Nochevieja</h2>
+                    </a>
+                    <p class="subtitulo">VICENTE COLL | Madrid</p>
                 </article>
             </div>
             <div class="col-4">
-                <article class="manchete p-3">
-                <h2>Adios a cenas con padres y hermano si somos familia numerosa</h2>
-                <p> | EMILIA LANDAUCE</p>
-                </article>
+                <div class="row px-1">
+                    <div class="col-4">
+                        <img src="./img/articlecol2.png" alt="">
+                    </div>
+
+                    <div class="col-8">
+                    <article class="manchete p-3">
+                        <a href="#">
+                            <h2>Adios a cenas con padres y hermano si somos familia numerosa</h2>
+                        </a>
+                        <p class="subtitulo"> | EMILIA LANDAUCE</p>
+                    </article>
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 pl-1">
                 <article class="manchete p-3">
-                <h2>Así es el plan de Sanidad. Illa plantea una vacunación escalada en tres etapas, empezando en enero
-                </h2>
-                <p>LAURA G. IBAÑEZ | Madrid</p>
+                    <a href="#">
+                        <h2><span class="title">Así es el plan de Sanidad.</span> Illa plantea una vacunación escalada
+                            en
+                            tres etapas, empezando en enero
+                        </h2>
+                    </a>
+                    <p class="subtitulo">LAURA G. IBAÑEZ | Madrid</p>
                 </article>
             </div>
         </div>
     </div>
 
+    <!-- Article 3 - 2 cols -->
 
+    <div class="container p-2">
+        <div class="row">
+            <div class="col-3 pr-1">
+                <article class="manchete p-3">
+                    <a href="#">
+                        <h2><span class="titulo">En vivo.</span> Coronavirus | Los investigadores descubren cuál es el
+                            síntoma más común</h2>
+                    </a>
+                    <p class="subtitulo">ESTHER MUCIENTE | Madrid</p>
+                    <section class="secao">
+                        <a href="#">
+                            <p><span class="titulosecao">Covid.</span> Sanidad informa de 12.228 contagios y 537 muertos
+                            </p>
+                        </a>
+                    </section>
+                </article>
+            </div>
+
+            <div class="col-3 px-1">
+                <article class="manchete p-3">
+                    <a href="#">
+                        <h2><span class="titulo">Deirdre McCloskey.</span> Entrego un tercio de mis ingresos en
+                            impuestos.
+                            Eso me hace dos tercios
+                            libres?</h2>
+                    </a>
+                    <p class="subtitulo"> | PABLO R. SUANZES | Bruselas</p>
+                    <section class="secao">
+                        <a href="#">
+                            <p><span class="titulosecao">Applebaum.</span> Alguns Gobiernos cairán por el coronavirus
+                            </p>
+                        </a>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="./js/jquery-3.5.1.slim.min.js"></script>
     <script type="text/javascript" src="./js/popper.min.js"></script>
