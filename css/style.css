@@ -212,3 +212,8 @@ ul{
     font-weight: bold;
     font-size: 14px;
 }
+
+.owl-carousel img{
+    height: 100px;
+    box-shadow: -2 2px 4px 0px #aaaaaa;
+}
