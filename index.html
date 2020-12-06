@@ -15,8 +15,13 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- owlCarousel -->
-    <link rel="stylesheet" href="owlCarousel/assets/dist/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlCarousel/assets/dist/owl.theme.default.min.css">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="./owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlCarousel/dist/assets/owl.theme.default.min.css">
+=======
+    <link rel="stylesheet" href="owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlCarousel/dist/assets/owl.theme.default.min.css">
+>>>>>>> 224a1f21a1d3c11b9feed53b92c8f018e3fd210f
 </head>
 
 <body>
@@ -369,7 +374,7 @@
                 <label for="resultados">
                     <p>Resultados:</p>
                 </label>
-                <select name="" id="resultados">
+                <select name="resultados" id="resultados">
                     <option value="0">Todos</option>
                     <option value="1">Champions League</option>
                 </select>
@@ -397,6 +402,51 @@
                 <p class="m-1">CHAMPIONS LEAGUE</p>
                 <div class="owl-carousel owl-theme">
                     <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./img/jogos.png" alt="">
+                    </div>
+                    <div class="item">
                         <img src="./img/jogos.png" alt="">
                     </div>
                     <div class="item">
@@ -409,6 +459,8 @@
                         <img src="./img/jogos.png" alt="">
                     </div>
                 </div>
+                <!-- <button id="btn_prev">Anterior</button>
+                <button id="btn_next">Próximo</button> -->
             </div>
         </div>
     </div>
@@ -418,11 +470,25 @@
     <script type="text/javascript" src="./js/popper.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
     <script src="./owlCarousel/dist/owl.carousel.min.js"></script>
+    <script src="./js/script.js"></script>
 
     <script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-            items: 4
+        var owl = $(".owl-carousel");
+        
+        owl.owlCarousel({
+            items: 6,
+            margin: 8,
+            nav: true,
+            dots:false
         });
+
+        /* $("#btn_prev").on('click', function(){
+        owl.trigger('prev.owl.carousel');
+        })
+
+        $("#btn_next").on('click', function(){
+        owl.trigger('next.owl.carousel');
+        }) */
     </script>
 </body>
 

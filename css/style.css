@@ -180,6 +180,7 @@ ul{
 
 .coluna1{
     padding: 6px;
+    width: 100%;
 }
 
 .coluna1 select{
@@ -211,4 +212,10 @@ ul{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
     font-size: 14px;
+}
+
+.owl-carousel img{
+    height: 100px;
+    max-width: 160px;
+    box-shadow: 2px -2px 4px #aaa;
 }
