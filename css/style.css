@@ -216,6 +216,5 @@ ul{
 
 .owl-carousel img{
     height: 100px;
-    max-width: 160px;
-    box-shadow: 2px -2px 4px #aaa;
+    box-shadow: -2 2px 4px 0px #aaaaaa;
 }
